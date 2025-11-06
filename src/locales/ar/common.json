@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "عن",
+    "projects": "المشاريع",
+    "skills": "المهارات",
+    "education": "التعليم",
+    "contact": "اتصل"
+  },
+  "hero": {
+    "greeting": "مرحباً، أنا",
+    "name": "غومة ضياء",
+    "title": "مهندس معلوماتية",
+    "subtitle": "مطور Full-Stack ومهندس ذكاء اصطناعي",
+    "cta": "شاهد مشاريعي",
+    "downloadCV": "تحميل السيرة الذاتية"
+  },
+  "about": {
+    "title": "عني",
+    "profile": "مهندس معلوماتية شغوف بتطوير حلول مبتكرة، مع تدريب تقني قوي وخبرة عملية في تصميم وتطوير وصيانة تطبيقات الويب والبرمجيات. ماهر في Java و JavaScript و Python وقواعد البيانات (MySQL و MongoDB) و React و Node.js و Spring Boot. فضولي ودقيق وموجه نحو الحلول.",
+    "experience": "الخبرة المهنية"
+  },
+  "experiences": [
+    {
+      "company": "ARIMAYI Academy Pro SAS",
+      "role": "مطور NextJS",
+      "period": "يوليو 2025 - أغسطس 2025",
+      "location": "Issy-les-Moulineaux (عن بعد)",
+      "description": "Front & Back (Next.js + TypeScript)، تكامل Figma في المكونات، الاختبار (Jest، Testing Library).",
+      "tech": ["Next.js", "TypeScript", "TailwindCSS", "Jest"]
+    },
+    {
+      "company": "Vision Age VFX",
+      "role": "مهندس تعلم آلي وFull-Stack",
+      "period": "يونيو 2025 - أغسطس 2025",
+      "location": "سوسة",
+      "description": "محرك توصية بالذكاء الاصطناعي (Flask)، رسائل في الوقت الفعلي (Next.js + Socket.io)، بنية WebSocket.",
+      "tech": ["Flask", "Next.js", "Socket.io", "Python", "ML"]
+    },
+    {
+      "company": "Technix",
+      "role": "متدرب مهندس صيفي",
+      "period": "يونيو 2024 - أغسطس 2024",
+      "location": "الرفراف",
+      "description": "منصة Full-stack React/Node/MongoDB، خدمة Flask الصغيرة للتوصية الذكية.",
+      "tech": ["React", "Node.js", "MongoDB", "Flask"]
+    },
+    {
+      "company": "Arab Soft",
+      "role": "متدرب / مشروع نهاية الدراسات",
+      "period": "فبراير 2023 - مايو 2023",
+      "location": "Monplaisir",
+      "description": "تطبيق ويب لوسطاء التأمين (Spring Boot، Angular، MySQL): العملاء والعقود والعروض والمطالبات.",
+      "tech": ["Spring Boot", "Angular", "MySQL"]
+    }
+  ],
+  "projects": {
+    "title": "مشاريعي",
+    "filterAll": "الكل",
+    "viewGithub": "عرض على GitHub",
+    "viewDemo": "عرض العرض التوضيحي",
+    "items": [
+      {
+        "title": "تطبيق وسطاء التأمين",
+        "description": "تطبيق ويب كامل لوسطاء التأمين مع إدارة العملاء والعروض والعقود والمطالبات. بنية خدمات صغيرة مع backend Spring Boot وAngular frontend.",
+        "tech": ["Spring Boot", "Angular", "MySQL", "REST API"],
+        "category": "fullstack",
+        "github": "https://github.com/DhiaGhouma",
+        "demo": ""
+      },
+      {
+        "title": "نظام توصية الدورات الديناميكية",
+        "description": "نظام توصية دورات مخصص باستخدام خوارزميات التعلم الآلي (KNN، SVM). واجهة React مع backend Node.js وخدمة Flask الصغيرة للذكاء الاصطناعي.",
+        "tech": ["React", "Node.js", "MongoDB", "Flask", "ML"],
+        "category": "ai",
+        "github": "https://github.com/DhiaGhouma",
+        "demo": ""
+      },
+      {
+        "title": "تطبيق تبادل المهارات",
+        "description": "منصة تبادل المهارات مع نظام مطابقة ذكي قائم على التعلم الآلي. يسمح للمستخدمين بالعثور على موجهين وتبادل المعرفة.",
+        "tech": ["React", "Node.js", "MongoDB", "ML"],
+        "category": "fullstack",
+        "github": "https://github.com/DhiaGhouma",
+        "demo": ""
+      },
+      {
+        "title": "متتبع كمال الأجسام ومساعد الذكاء الاصطناعي",
+        "description": "تطبيق تتبع الأداء الرياضي مع مساعد الذكاء الاصطناعي لتحليل الصور والتوصيات الشخصية. خدمة Flask الصغيرة لتحليل الصور.",
+        "tech": ["JavaScript", "Flask", "Python", "AI"],
+        "category": "ai",
+        "github": "https://github.com/DhiaGhouma",
+        "demo": ""
+      },
+      {
+        "title": "urbanGreen",
+        "description": "منصة توصيات المشاريع البيئية الحضرية. بنية Laravel مع خدمة Flask الصغيرة للتوصيات الذكية القائمة على الذكاء الاصطناعي.",
+        "tech": ["Laravel", "Flask", "Python", "ML"],
+        "category": "ai",
+        "github": "https://github.com/DhiaGhouma",
+        "demo": ""
+      }
+    ]
+  },
+  "skills": {
+    "title": "المهارات التقنية",
+    "categories": {
+      "languages": "اللغات والأطر",
+      "databases": "قواعد البيانات و DevOps",
+      "aiml": "الذكاء الاصطناعي والتعلم الآلي",
+      "tools": "الأدوات"
+    },
+    "items": {
+      "languages": ["Java", "JavaScript", "TypeScript", "Python", "Node.js", "React.js", "Next.js", "Angular", "Spring Boot", ".NET", "Symfony", "Laravel", "JavaFX"],
+      "databases": ["MySQL", "MongoDB", "PostgreSQL", "Git", "Docker", "CI/CD", "Agile Scrum"],
+      "aiml": ["Python", "Flask", "Scikit-learn", "KNN", "SVM", "معالجة البيانات المسبقة", "النمذجة", "تقييم النموذج"],
+      "tools": ["Figma", "Jest", "Testing Library", "VS Code", "IntelliJ"]
+    }
+  },
+  "education": {
+    "title": "التعليم",
+    "items": [
+      {
+        "degree": "شهادة هندسة في علوم الكمبيوتر",
+        "school": "ESPRIT",
+        "fullName": "المدرسة العليا الخاصة للهندسة والتكنولوجيا",
+        "period": "2022 - 2025",
+        "location": "تونس"
+      },
+      {
+        "degree": "إجازة في هندسة البرمجيات",
+        "school": "كلية العلوم ببنزرت",
+        "period": "2019 - 2022",
+        "location": "بنزرت"
+      }
+    ]
+  },
+  "contact": {
+    "title": "اتصل بي",
+    "subtitle": "لا تتردد في الاتصال بي لمناقشة مشاريعك",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "message": "الرسالة",
+    "send": "إرسال",
+    "sending": "جارٍ الإرسال...",
+    "success": "تم إرسال الرسالة بنجاح!",
+    "error": "خطأ في إرسال الرسالة",
+    "info": {
+      "email": "ghoumadhia01@gmail.com",
+      "phone": "+216 56 251 619",
+      "location": "العالية، بنزرت، تونس",
+      "github": "github.com/DhiaGhouma",
+      "linkedin": "linkedin.com/in/dhia-ghouma-725ab4212"
+    }
+  },
+  "footer": {
+    "rights": "جميع الحقوق محفوظة",
+    "madeWith": "صنع بـ",
+    "by": "بواسطة"
+  },
+  "theme": {
+    "dark": "الوضع الداكن",
+    "black": "الوضع الأسود"
+  },
+  "languages": {
+    "fr": "Français",
+    "en": "English",
+    "ar": "العربية",
+    "de": "Deutsch",
+    "es": "Español"
+  },
+  "humanLanguages": {
+    "title": "اللغات",
+    "arabic": "العربية (C2)",
+    "french": "الفرنسية (B2)",
+    "english": "الإنجليزية (متوسط)"
+  },
+  "interests": {
+    "title": "الاهتمامات",
+    "items": ["كمال الأجسام واللياقة البدنية", "السينما والمسلسلات", "التخييم", "النمذجة", "كرة القدم"]
+  }
+}

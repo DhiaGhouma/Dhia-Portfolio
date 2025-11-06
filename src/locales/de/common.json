@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über",
+    "projects": "Projekte",
+    "skills": "Fähigkeiten",
+    "education": "Ausbildung",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "greeting": "Hallo, ich bin",
+    "name": "Ghouma Dhia",
+    "title": "Informatik-Ingenieur",
+    "subtitle": "Full-Stack-Entwickler & KI-Ingenieur",
+    "cta": "Meine Projekte ansehen",
+    "downloadCV": "Lebenslauf herunterladen"
+  },
+  "about": {
+    "title": "Über mich",
+    "profile": "Leidenschaftlicher Informatik-Ingenieur, der sich auf die Entwicklung innovativer Lösungen konzentriert, mit solider technischer Ausbildung und praktischer Erfahrung im Entwurf, der Entwicklung und Wartung von Web- und Softwareanwendungen. Kompetent in Java, JavaScript, Python, Datenbanken (MySQL, MongoDB), React, Node.js, Spring Boot. Neugierig, gründlich und lösungsorientiert.",
+    "experience": "Berufserfahrung"
+  },
+  "experiences": [
+    {
+      "company": "ARIMAYI Academy Pro SAS",
+      "role": "NextJS-Entwickler",
+      "period": "Juli 2025 - August 2025",
+      "location": "Issy-les-Moulineaux (Remote)",
+      "description": "Front & Back (Next.js + TypeScript), Figma-zu-Komponenten-Integration, Tests (Jest, Testing Library).",
+      "tech": ["Next.js", "TypeScript", "TailwindCSS", "Jest"]
+    },
+    {
+      "company": "Vision Age VFX",
+      "role": "Machine Learning und Full-Stack-Ingenieur",
+      "period": "Juni 2025 - August 2025",
+      "location": "Sousse",
+      "description": "KI-Empfehlungsmotor (Flask), Echtzeit-Messaging (Next.js + Socket.io), WebSocket-Architektur.",
+      "tech": ["Flask", "Next.js", "Socket.io", "Python", "ML"]
+    },
+    {
+      "company": "Technix",
+      "role": "Sommer-Ingenieurpraktikant",
+      "period": "Juni 2024 - August 2024",
+      "location": "Rafraf",
+      "description": "Full-Stack React/Node/MongoDB-Plattform, Flask-Microservice für intelligente Empfehlungen.",
+      "tech": ["React", "Node.js", "MongoDB", "Flask"]
+    },
+    {
+      "company": "Arab Soft",
+      "role": "Praktikant / Abschlussprojekt",
+      "period": "Februar 2023 - Mai 2023",
+      "location": "Monplaisir",
+      "description": "Webanwendung für Versicherungsmakler (Spring Boot, Angular, MySQL): Kunden, Verträge, Angebote, Schadensfälle.",
+      "tech": ["Spring Boot", "Angular", "MySQL"]
+    }
+  ],
+  "projects": {
+    "title": "Meine Projekte",
+    "filterAll": "Alle",
+    "viewGithub": "Auf GitHub ansehen",
+    "viewDemo": "Demo ansehen",
+    "items": [
+      {
+        "title": "Versicherungsmakler-Anwendung",
+        "description": "Vollständige Webanwendung für Versicherungsmakler mit Kunden-, Angebots-, Vertrags- und Schadensverwaltung. Microservices-Architektur mit Spring Boot Backend und Angular Frontend.",
+        "tech": ["Spring Boot", "Angular", "MySQL", "REST API"],
+        "category": "fullstack",
+        "github": "https://github.com/DhiaGhouma",
+        "demo": ""
+      },
+      {
+        "title": "Dynamisches Kursempfehlungssystem",
+        "description": "Personalisiertes Kursempfehlungssystem mit Machine-Learning-Algorithmen (KNN, SVM). React-Oberfläche mit Node.js Backend und Flask-Microservice für KI.",
+        "tech": ["React", "Node.js", "MongoDB", "Flask", "ML"],
+        "category": "ai",
+        "github": "https://github.com/DhiaGhouma",
+        "demo": ""
+      },
+      {
+        "title": "Skill Exchange Anwendung",
+        "description": "Skill-Exchange-Plattform mit intelligentem Matching-System basierend auf Machine Learning. Ermöglicht Benutzern, Mentoren zu finden und Wissen auszutauschen.",
+        "tech": ["React", "Node.js", "MongoDB", "ML"],
+        "category": "fullstack",
+        "github": "https://github.com/DhiaGhouma",
+        "demo": ""
+      },
+      {
+        "title": "Bodybuilding Tracker & KI-Assistent",
+        "description": "Sportleistungs-Tracking-Anwendung mit KI-Assistent für Bildanalyse und personalisierte Empfehlungen. Flask-Microservice für Bildanalyse.",
+        "tech": ["JavaScript", "Flask", "Python", "AI"],
+        "category": "ai",
+        "github": "https://github.com/DhiaGhouma",
+        "demo": ""
+      },
+      {
+        "title": "urbanGreen",
+        "description": "Plattform für städtische ökologische Projektempfehlungen. Laravel-Architektur mit Flask-Microservice für KI-basierte intelligente Empfehlungen.",
+        "tech": ["Laravel", "Flask", "Python", "ML"],
+        "category": "ai",
+        "github": "https://github.com/DhiaGhouma",
+        "demo": ""
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technische Fähigkeiten",
+    "categories": {
+      "languages": "Sprachen & Frameworks",
+      "databases": "Datenbanken & DevOps",
+      "aiml": "KI & Machine Learning",
+      "tools": "Werkzeuge"
+    },
+    "items": {
+      "languages": ["Java", "JavaScript", "TypeScript", "Python", "Node.js", "React.js", "Next.js", "Angular", "Spring Boot", ".NET", "Symfony", "Laravel", "JavaFX"],
+      "databases": ["MySQL", "MongoDB", "PostgreSQL", "Git", "Docker", "CI/CD", "Agile Scrum"],
+      "aiml": ["Python", "Flask", "Scikit-learn", "KNN", "SVM", "Datenvorverarbeitung", "Modellierung", "Modellbewertung"],
+      "tools": ["Figma", "Jest", "Testing Library", "VS Code", "IntelliJ"]
+    }
+  },
+  "education": {
+    "title": "Ausbildung",
+    "items": [
+      {
+        "degree": "Ingenieurabschluss in Informatik",
+        "school": "ESPRIT",
+        "fullName": "Private Hochschule für Ingenieurwesen und Technologien",
+        "period": "2022 - 2025",
+        "location": "Tunis"
+      },
+      {
+        "degree": "Bachelor in Software Engineering",
+        "school": "Fakultät für Naturwissenschaften von Bizerte",
+        "period": "2019 - 2022",
+        "location": "Bizerte"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontaktieren Sie mich",
+    "subtitle": "Zögern Sie nicht, mich zu kontaktieren, um über Ihre Projekte zu sprechen",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "send": "Senden",
+    "sending": "Wird gesendet...",
+    "success": "Nachricht erfolgreich gesendet!",
+    "error": "Fehler beim Senden der Nachricht",
+    "info": {
+      "email": "ghoumadhia01@gmail.com",
+      "phone": "+216 56 251 619",
+      "location": "El Alia, Bizerte, Tunesien",
+      "github": "github.com/DhiaGhouma",
+      "linkedin": "linkedin.com/in/dhia-ghouma-725ab4212"
+    }
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten",
+    "madeWith": "Erstellt mit",
+    "by": "von"
+  },
+  "theme": {
+    "dark": "Dunkler Modus",
+    "black": "Schwarzer Modus"
+  },
+  "languages": {
+    "fr": "Français",
+    "en": "English",
+    "ar": "العربية",
+    "de": "Deutsch",
+    "es": "Español"
+  },
+  "humanLanguages": {
+    "title": "Sprachen",
+    "arabic": "Arabisch (C2)",
+    "french": "Französisch (B2)",
+    "english": "Englisch (Mittelstufe)"
+  },
+  "interests": {
+    "title": "Interessen",
+    "items": ["Bodybuilding & Fitness", "Kino & Serien", "Camping", "Modeling", "Fußball"]
+  }
+}

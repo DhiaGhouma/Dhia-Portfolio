@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "education": "Educación",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Ghouma Dhia",
+    "title": "Ingeniero Informático",
+    "subtitle": "Desarrollador Full-Stack e Ingeniero de IA",
+    "cta": "Ver mis proyectos",
+    "downloadCV": "Descargar CV"
+  },
+  "about": {
+    "title": "Acerca de mí",
+    "profile": "Ingeniero informático apasionado por desarrollar soluciones innovadoras, con sólida formación técnica y experiencia práctica en diseño, desarrollo y mantenimiento de aplicaciones web y de software. Competente en Java, JavaScript, Python, bases de datos (MySQL, MongoDB), React, Node.js, Spring Boot. Curioso, riguroso y orientado a soluciones.",
+    "experience": "Experiencia profesional"
+  },
+  "experiences": [
+    {
+      "company": "ARIMAYI Academy Pro SAS",
+      "role": "Desarrollador NextJS",
+      "period": "Julio 2025 - Agosto 2025",
+      "location": "Issy-les-Moulineaux (Remoto)",
+      "description": "Front & Back (Next.js + TypeScript), integración de Figma a componentes, pruebas (Jest, Testing Library).",
+      "tech": ["Next.js", "TypeScript", "TailwindCSS", "Jest"]
+    },
+    {
+      "company": "Vision Age VFX",
+      "role": "Ingeniero de Machine Learning y Full-Stack",
+      "period": "Junio 2025 - Agosto 2025",
+      "location": "Sousse",
+      "description": "Motor de recomendación de IA (Flask), mensajería en tiempo real (Next.js + Socket.io), arquitectura WebSocket.",
+      "tech": ["Flask", "Next.js", "Socket.io", "Python", "ML"]
+    },
+    {
+      "company": "Technix",
+      "role": "Pasante de ingeniería de verano",
+      "period": "Junio 2024 - Agosto 2024",
+      "location": "Rafraf",
+      "description": "Plataforma Full-stack React/Node/MongoDB, microservicio Flask para recomendación inteligente.",
+      "tech": ["React", "Node.js", "MongoDB", "Flask"]
+    },
+    {
+      "company": "Arab Soft",
+      "role": "Pasante / Proyecto de Fin de Estudios",
+      "period": "Febrero 2023 - Mayo 2023",
+      "location": "Monplaisir",
+      "description": "Aplicación web para corredores de seguros (Spring Boot, Angular, MySQL): clientes, contratos, cotizaciones, reclamaciones.",
+      "tech": ["Spring Boot", "Angular", "MySQL"]
+    }
+  ],
+  "projects": {
+    "title": "Mis Proyectos",
+    "filterAll": "Todos",
+    "viewGithub": "Ver en GitHub",
+    "viewDemo": "Ver Demo",
+    "items": [
+      {
+        "title": "Aplicación de Corredores de Seguros",
+        "description": "Aplicación web completa para corredores de seguros con gestión de clientes, cotizaciones, contratos y reclamaciones. Arquitectura de microservicios con backend Spring Boot y frontend Angular.",
+        "tech": ["Spring Boot", "Angular", "MySQL", "REST API"],
+        "category": "fullstack",
+        "github": "https://github.com/DhiaGhouma",
+        "demo": ""
+      },
+      {
+        "title": "Sistema de Recomendación de Cursos Dinámicos",
+        "description": "Sistema de recomendación de cursos personalizado utilizando algoritmos de Machine Learning (KNN, SVM). Interfaz React con backend Node.js y microservicio Flask para IA.",
+        "tech": ["React", "Node.js", "MongoDB", "Flask", "ML"],
+        "category": "ai",
+        "github": "https://github.com/DhiaGhouma",
+        "demo": ""
+      },
+      {
+        "title": "Aplicación de Intercambio de Habilidades",
+        "description": "Plataforma de intercambio de habilidades con sistema de emparejamiento inteligente basado en Machine Learning. Permite a los usuarios encontrar mentores e intercambiar conocimientos.",
+        "tech": ["React", "Node.js", "MongoDB", "ML"],
+        "category": "fullstack",
+        "github": "https://github.com/DhiaGhouma",
+        "demo": ""
+      },
+      {
+        "title": "Rastreador de Culturismo y Asistente de IA",
+        "description": "Aplicación de seguimiento de rendimiento deportivo con asistente de IA para análisis de imágenes y recomendaciones personalizadas. Microservicio Flask para análisis de imágenes.",
+        "tech": ["JavaScript", "Flask", "Python", "AI"],
+        "category": "ai",
+        "github": "https://github.com/DhiaGhouma",
+        "demo": ""
+      },
+      {
+        "title": "urbanGreen",
+        "description": "Plataforma de recomendaciones de proyectos ecológicos urbanos. Arquitectura Laravel con microservicio Flask para recomendaciones inteligentes basadas en IA.",
+        "tech": ["Laravel", "Flask", "Python", "ML"],
+        "category": "ai",
+        "github": "https://github.com/DhiaGhouma",
+        "demo": ""
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades Técnicas",
+    "categories": {
+      "languages": "Lenguajes y Frameworks",
+      "databases": "Bases de Datos y DevOps",
+      "aiml": "IA y Machine Learning",
+      "tools": "Herramientas"
+    },
+    "items": {
+      "languages": ["Java", "JavaScript", "TypeScript", "Python", "Node.js", "React.js", "Next.js", "Angular", "Spring Boot", ".NET", "Symfony", "Laravel", "JavaFX"],
+      "databases": ["MySQL", "MongoDB", "PostgreSQL", "Git", "Docker", "CI/CD", "Agile Scrum"],
+      "aiml": ["Python", "Flask", "Scikit-learn", "KNN", "SVM", "Preprocesamiento de datos", "Modelado", "Evaluación de modelos"],
+      "tools": ["Figma", "Jest", "Testing Library", "VS Code", "IntelliJ"]
+    }
+  },
+  "education": {
+    "title": "Educación",
+    "items": [
+      {
+        "degree": "Título de Ingeniería en Informática",
+        "school": "ESPRIT",
+        "fullName": "Escuela Superior Privada de Ingeniería y Tecnologías",
+        "period": "2022 - 2025",
+        "location": "Túnez"
+      },
+      {
+        "degree": "Licenciatura en Ingeniería de Software",
+        "school": "Facultad de Ciencias de Bizerte",
+        "period": "2019 - 2022",
+        "location": "Bizerte"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contáctame",
+    "subtitle": "No dudes en contactarme para discutir tus proyectos",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado con éxito!",
+    "error": "Error al enviar el mensaje",
+    "info": {
+      "email": "ghoumadhia01@gmail.com",
+      "phone": "+216 56 251 619",
+      "location": "El Alia, Bizerte, Túnez",
+      "github": "github.com/DhiaGhouma",
+      "linkedin": "linkedin.com/in/dhia-ghouma-725ab4212"
+    }
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "madeWith": "Hecho con",
+    "by": "por"
+  },
+  "theme": {
+    "dark": "Modo Oscuro",
+    "black": "Modo Negro"
+  },
+  "languages": {
+    "fr": "Français",
+    "en": "English",
+    "ar": "العربية",
+    "de": "Deutsch",
+    "es": "Español"
+  },
+  "humanLanguages": {
+    "title": "Idiomas",
+    "arabic": "Árabe (C2)",
+    "french": "Francés (B2)",
+    "english": "Inglés (Intermedio)"
+  },
+  "interests": {
+    "title": "Intereses",
+    "items": ["Culturismo y Fitness", "Cine y Series", "Camping", "Modelaje", "Fútbol"]
+  }
+}
